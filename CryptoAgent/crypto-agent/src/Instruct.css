@@ -1,0 +1,23 @@
+.main{
+    padding-top:20px;
+    background-image: url("../public/Images/diag3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Guida;
+    src: url("../public/text-style/Giuconda Regular.ttf");
+  }
+
+.scnd{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3% 20%;
+    color: white;
+    font-size: 30px;
+    font-family: Guida;
+    backdrop-filter: blur(4px);
+    backdrop-filter: brightness(30%);
+}

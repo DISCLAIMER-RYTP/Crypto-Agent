@@ -1,0 +1,75 @@
+.header{
+    background-color: transparent;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    backdrop-filter: blur(8px);
+    max-height: 37px;
+}
+
+@font-face {
+    font-family: Guida;
+    src: url("../public/text-style/Giuconda Regular.ttf");
+}
+
+@font-face {
+    font-family: Tech;
+    src: url("../public/text-style/TechZoneDemoRegular.ttf");
+}
+
+.callback{
+    position: sticky;
+    background-color: transparent;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Guida;
+    justify-content: space-around;
+    display:flex;
+}
+
+.inf{
+    margin: 20px;
+    text-decoration: underline;
+    color: white;
+}
+
+.name{
+    font-size: 15px;
+    font-family: Tech;
+    text-align: left;
+    margin-left: 2%;
+}
+
+
+.btn{
+    background-color: transparent;
+    border-radius: 25px;
+    font-family: Guida;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 30px;
+    transition: 0.7s;
+    border-color: rgb(39, 39, 39);
+    border-style: solid;
+}
+.btn:hover{
+    background-color: rgb(39, 39, 39);
+    transition: 0.7s;
+    border-color: transparent;
+}
+
+.second-div{
+    justify-content: space-evenly;
+    display: flex;
+    width: 30%;
+}
+
+.thrd{
+    padding-top: 7px;
+}

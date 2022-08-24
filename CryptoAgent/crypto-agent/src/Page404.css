@@ -1,0 +1,26 @@
+.dv{
+    background-image: url('../public/Images/error.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+
+.dv2{
+    backdrop-filter: blur(8px) brightness(30%);
+    height:100vh;
+}
+
+.text{
+font-family: Guida;
+font-size: 50px;
+color: rgb(97, 0, 0);
+text-align: center;
+margin: 0;
+font-weight: bold;
+text-shadow: rgb(53, 0, 138) 1px 0 10px;
+}
+
+@font-face {
+    font-family: Guida;
+    src: url("../public/text-style/Giuconda Regular.ttf");
+  }

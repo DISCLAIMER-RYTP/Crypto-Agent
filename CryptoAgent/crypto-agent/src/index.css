@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(39, 39, 39);
+}
+
+@font-face {
+  font-family: Guida;
+  src: url("../public/text-style/Giuconda Regular.ttf");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
