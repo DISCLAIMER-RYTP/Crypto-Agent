@@ -5,3 +5,4 @@ import {Chart as ChartJS} from 'chart.js/auto'
 export default function Diag1({chartData}) {
   return <Bar data={chartData}/>
 }
+    

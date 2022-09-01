@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
-    <div className='header'>
+    <div className='header' id='hd2'>
         <div className='callback'>
         <span className='name'>Crypto Agent</span>
             <div className='second-div'>

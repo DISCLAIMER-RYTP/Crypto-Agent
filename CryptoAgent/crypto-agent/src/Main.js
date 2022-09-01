@@ -13,7 +13,7 @@ export default function Main() {
       label: "BTC",
       data: UserData.map((data) => data.userGain),
       backgroundColor: [
-        "#ecf0f1"
+        "rgb(125, 125, 125)"
       ],
       borderColor: "black",
       borderWidth: 2,
@@ -21,10 +21,10 @@ export default function Main() {
     ],
   });
   return (
-    <div>
+    <div className='mm'>
       <Header2/>
       <div>
-        <div>
+        <div style={{width: 600}}>
         <BarChart chartData={userData}/>
         </div>
         <div></div>
