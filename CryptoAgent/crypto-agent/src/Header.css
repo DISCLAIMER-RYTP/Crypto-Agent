@@ -72,16 +72,10 @@
 
 .thrd{
     padding-top: 7px;
+    display: flex;
 }
 
 .crpt{
-    margin: 0 20px 0 0;
+    margin: 0 20px;
     font-family: Guida;
-}
-
-#hd2{
-    margin-top: -50px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    max-height: 20px;
 }
