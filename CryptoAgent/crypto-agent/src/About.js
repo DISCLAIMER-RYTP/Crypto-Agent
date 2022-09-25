@@ -2,6 +2,16 @@ import React from 'react'
 import './About.css'
 
 export default function About() {
+  document.addEventListener('readystatechange', event => {
+    if (event.target.readyState === "complete") {
+      const cursor = document.querySelector('.cursor');
+    
+      setTimeout(document.addEventListener('mousemove', e => {
+        cursor.setAttribute("style", "top: "+(e.pageY - 200)+"px; left: "+(e.pageX - 200)+"px;");
+    }), 100);
+    }
+    
+    });
   return (
     <div className='back'>
         <div className='cursor'></div>
@@ -17,14 +27,4 @@ export default function About() {
   )
 }
 
-document.addEventListener('readystatechange', event => { 
 
-if (event.target.readyState === "complete") {
-  const cursor = document.querySelector('.cursor');
-
-  setTimeout(document.addEventListener('mousemove', e => {
-    cursor.setAttribute("style", "top: "+(e.pageY - 200)+"px; left: "+(e.pageX - 200)+"px;")
-}), 100);
-}
-
-});

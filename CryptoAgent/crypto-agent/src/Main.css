@@ -1,4 +1,87 @@
 .mm{
-    margin-top: 50px;
+    margin-top: 30px;
     color:rgb(125, 125, 125);
+    display: flex;
+    font-family: Guida;
+    padding: 30px;
+}
+
+@font-face {
+    font-family: Guida;
+    src: url("../public/text-style/Giuconda Regular.ttf");
+}
+
+.dvL{
+    background-color: black;
+    width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid #FBCD45 4px;
+    align-items: center;
+    height: 80vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+   
+  ::-webkit-scrollbar-thumb {
+    background: #4872ff; 
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4872ff; 
+  }
+
+
+
+.dvD{
+    width: 44%;
+}
+
+.dvI{
+    float: right;
+    margin-left: 3%;
+    font-family: Guida;
+    font-size: 23px;
+    color: #FBCD45;
+    border: solid #FBCD45 4px;
+    background-color: black;
+    border-radius: 10px;
+    align-items: center;
+    height: 83vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 0 1%;
+}
+
+
+.btnCr{
+    font-family: Guida;
+    font-weight: bold;
+    font-size: 27px;
+    color: #6489FF;
+    background-color: #272727;
+    border-radius: 10px;
+    margin: 15px 0;
+    padding: 10px 30px;
+    border-width: 3px;
+    transition: 0.7s;
+}
+
+.btnCr:hover{
+    font-size: 25px;
+    color: #FBCD45;
+    background-color: #272727;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 15px 35px;
+    border-color: #FBCD45;
+    border-width: 3px;
+    border: solid;
 }

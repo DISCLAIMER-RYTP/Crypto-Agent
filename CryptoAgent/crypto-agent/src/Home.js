@@ -8,6 +8,9 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Backdrop } from '@mui/material';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 export default function Home() {
   return (
@@ -21,7 +24,7 @@ export default function Home() {
       </div>
         <div className='img1'>
           <div className='for-img1'>
-          <h1 className='hh1'>
+          <h1 data-aos="flip-up" className='hh1'>
           Fascinating Cryptocurrency Statistics
           </h1>
 
@@ -282,8 +285,8 @@ export default function Home() {
             <div className='cop'>
               <p>This site haven't coppirate rules.<br/><hr/><br/><hr/>You can use him, if you want and how you want)</p>
             </div>
-            <div className='im2'></div>
-            <div className='cop2'>
+            <div className='im2' data-aos="zoom-out"></div>
+            <div className='cop2' data-aos="fade-up">
               <p>Directed by DISCLAIMER-RYTP</p>
             </div>
           </div>
